@@ -1,4 +1,5 @@
-import React, {Component, PropTypes} from 'react';
+//removed props PropType next to component no ship supported by react
+import React, {Component} from 'react';
 import {
   Image,
   Text,
@@ -11,6 +12,8 @@ import {
   TouchableOpacity,
   Dimensions,
 } from 'react-native';
+//imported proptypes
+import PropTypes from 'prop-types'; // ES6
 
 const reactNativePackage = require('react-native/package.json');
 const splitVersion = reactNativePackage.version.split('.');
